@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    
 }
 
 
@@ -19,11 +21,16 @@
     font-weight: 700;
 }
 
-.post  {
-    font-family: 'Pathway Gothic One', sans-serif;
+.pizza-img {
+    width: 100%;
 }
 
-.header, .header2 {
+.post  {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: xx-small;
+}
+
+.header, .header3 {
     display: flex;
     justify-content: space-between;
 }
@@ -38,13 +45,12 @@
 .table {
     display: flex;
     background-image: url(./Resources/list-bg.png);
-    justify-content: start;
-    padding: 0;
+    width: 100%;
 }
 
-.auther {
-display: flex;
-justify-content: space-between;
+.author {
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -54,23 +60,35 @@ justify-content: space-between;
 
 }
 
-.a-bio {
-    display: inline-block;
+.a-info, .a-bio,  {
+    display: inline ;
 }
 
+.share-button {
+    display: inline;
+    margin: 3% 20% 3% 0;
+}
 .button2 {
-    
-    background: none;
-	color: inherit;
-	border: none;
+    color: white;
+    background-color: #ca8767;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 15px;
 	padding: 0;
+    flex-direction: column;
+    align-items: center;
+    padding: 1px 12px;
+
 }
 
 .footer {
-    display: flex;
+    display: grid;
     justify-content: center;
 }
 
 .footer1 {
     padding-left: 100px;
+}
+
+.publish {
+    margin-left: 25px;
 }
