@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head1 {
+    justify-content:left;
+}
+
+.head2 {
+    justify-content:right;
+}
+
+.button {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+}
