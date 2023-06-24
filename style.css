@@ -1,7 +1,5 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    
+    box-sizing: border-box;    
 }
 
 
@@ -13,11 +11,12 @@
 .hh2{
     font-family: 'Pathway Gothic One', sans-serif;
     font-weight: 700;
+    font-size: xx-small;
+    margin-left: 20px;
 }
 
 .c-pizza{
     font-family: 'Oswald', sans-serif;
-    font-size: 3.5vw;
     font-weight: 700;
 }
 
@@ -60,8 +59,9 @@
 
 }
 
-.a-info, .a-bio,  {
+.a-info, .a-bio  {
     display: inline ;
+    width: 25%;
 }
 
 .share-button {
@@ -86,7 +86,7 @@
 }
 
 .footer1 {
-    padding-left: 100px;
+    padding-left: 110px;
 }
 
 .publish {
